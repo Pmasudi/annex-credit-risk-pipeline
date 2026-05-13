@@ -1,0 +1,11 @@
+{"timestamp":"2026-05-11T13:34:47.352565Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-05-11T13:34:47.599693Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/annexTE_Peter.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-05-11T13:34:54.418675Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-05-11T13:34:54.422256Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-05-11T13:34:54.427681Z","level":"info","event":"Current task name:extract_data","logger":"task.stdout"}
+{"timestamp":"2026-05-11T13:34:54.428873Z","level":"info","event":"Dag name:annex_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-05-11T13:34:54.673443Z","level":"info","event":"Extracting","logger":"task.stdout"}
+{"timestamp":"2026-05-11T13:34:54.724189Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":217}
+{"timestamp":"2026-05-11T13:34:55.090900Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-05-11T13:34:55.091510Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-05-11T13:34:55.115741Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): extract_data>","logger":"task.stdout"}

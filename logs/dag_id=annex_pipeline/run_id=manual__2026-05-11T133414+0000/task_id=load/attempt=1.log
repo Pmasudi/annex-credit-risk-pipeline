@@ -1,0 +1,11 @@
+{"timestamp":"2026-05-11T13:35:05.301781Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-05-11T13:35:05.306257Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/annexTE_Peter.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-05-11T13:35:05.861651Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-05-11T13:35:05.876656Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-05-11T13:35:05.877739Z","level":"info","event":"Current task name:load","logger":"task.stdout"}
+{"timestamp":"2026-05-11T13:35:05.887747Z","level":"info","event":"Dag name:annex_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-05-11T13:35:05.888844Z","level":"info","event":"Data loaded to S3","logger":"task.stdout"}
+{"timestamp":"2026-05-11T13:35:05.884465Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":217}
+{"timestamp":"2026-05-11T13:35:05.969749Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-05-11T13:35:05.979764Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-05-11T13:35:05.981834Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): load>","logger":"task.stdout"}
